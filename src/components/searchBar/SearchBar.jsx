@@ -1,3 +1,4 @@
+import "./searchBar.css"
 import React from "react";
 
 export default function SearchBar(props) {
@@ -6,9 +7,8 @@ export default function SearchBar(props) {
   const {onSearch} = props;
 
   const inputChange=(e)=>{ 
-   setInputValue(e.target.value);
-
-  }
+     setInputValue(e.target.value);
+   }
 
    return (
       <div className="searchaBar">
