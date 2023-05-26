@@ -1,0 +1,56 @@
+.containerMenuMobile {
+    width: 320px;
+    left: 0px;
+    top:0;
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    transition: 390ms;
+}
+
+.containerMenuMobileOut {
+    left: -320px;
+    background-color: #000000;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    top: 0;
+    transition: 300ms;
+}
+
+.navBarMobile div {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.closeMenu {
+    color: #ffff;
+    position: relative;
+    bottom: 28%;
+    left: 44%;
+    cursor: pointer;
+}
+.closeMenu:hover {
+    color: #38ee32;
+}
+
+.navBarMobile a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+}
+
+.navBarMobile a:hover {
+    color:#79f1c3;
+    text-decoration:underline;
+}

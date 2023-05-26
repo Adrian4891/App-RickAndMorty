@@ -1,0 +1,60 @@
+.containerFavorites {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 15px;
+    background: #8360c3; 
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91); 
+    background: linear-gradient(to right, #8360c3, #2ebf91);}
+
+.containerSelects {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.containerCardFav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+ select{
+    padding: 7px;
+    font-size: 1em;
+    font-family: 'Alkatra', cursive;
+    font-weight: 550;
+    background-color:#79f1c3;
+    color:#fff;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 1px 1px #b9b9b5;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #131212;
+    box-shadow: 2px 2px 3px #ababab;
+}
+
+select:hover {
+    background-color: #30eba3;
+}
+
+.msgFav{
+    height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msgFav p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #43fd2a;
+    text-shadow: 2px 2px #4d4747;
+    
+}
+

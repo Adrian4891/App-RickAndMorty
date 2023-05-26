@@ -1,0 +1,10 @@
+.containerCards {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-image: url("../../images/backHome.png");
+    background-size: cover;
+}

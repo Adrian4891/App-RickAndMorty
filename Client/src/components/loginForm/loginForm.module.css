@@ -1,0 +1,83 @@
+.containerLoginPage {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-image:url("../../images/ImgForm.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+   
+.containerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 320px;
+    background-color:#3b3b3b;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.containerForm img {
+    margin-bottom: 10px;
+}
+  
+.containerForm form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+    
+.containerForm input{
+    padding: 7px;
+    margin-left:10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: transparent;
+    border-bottom:1px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+  
+.containerForm input:focus {
+    outline: none;
+}
+  
+.containerForm button {
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 1px  solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 15px;
+    background-color: transparent;
+}
+  
+label .icon {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 0px;
+}
+  
+.containerTextInput p {
+    padding: 0;
+    width: 200px;
+    text-align: center;
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 15px;
+    text-shadow: 1px 1px #0a0404;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.containerForm span{
+    color: #ffff;
+}
